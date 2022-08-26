@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Montserrat:ital,wght@0,300;0,900;1,400;1,500;1,700&family=Orbitron:wght@400;700&family=Oswald:wght@700&family=Roboto:wght@900&family=Sansita+Swashed:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #ffffff;
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.navbar-container img{
+    margin-left: 80px;
+    margin-bottom: 25px;
+    height: 40px;
+}
+.list{
+    height: 100px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 550px;  }
+
+.list li{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Orbitron";
+    transition: all .2s ease-in-out;
+    width: 150px;
+}
+.list li:hover::after{
+    content: ""; 
+    display: block; 
+    background-color: black;
+    height: 3px;
+    width: 50px; 
+    border-radius: 10px;
+}
+.list li:hover{
+     font-size: 22px;
+     font-weight: 700;
+}
+.button-group{
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+}
+.search-icon svg{
+    height: 24px;
+}
+.nav-button{
+    background-color: transparent;
+    border: 2.4px #0d0d0c solid;
+    border-radius: 10px;
+    padding: 5px 35px;
+    color: grey;
+    font-size: 19px;
+}
+.hero-container{
+    position: relative;
+}
+.square{
+    position: absolute;
+    top: 209px;
+    left: 225px;
+}
+.square img{
+    height: 290px;
+}
+.star{ 
+    position: absolute;
+    top: 30px;
+    right: 140px;
+}
+.star img{
+    height: 48px;
+}  
+.globe{
+    position: absolute;
+    top:-15px;
+    left: 52vw;
+} 
+.globe img{
+    height: 52px;
+}
+.hero-container>div>img{
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    height: 430px;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    width: 60%;
+    left: 518px;
+}
+.hero-heading{
+    font-family: "Orbitron";
+    font-weight: 900;
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+}
+.hero-description{
+    color: grey;
+    font-family: "Poppins";
+    padding: 45px 95px;
+    padding-bottom: 80px;
+    font-size: .96rem;
+    text-align: center; 
+}
+.button-email{
+    background-color: transparent;
+    font-family: "Orbitron";
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 20px;
+    border: black 2px solid;
+    color: grey;
+    padding: 2.5px 22px;
+    border-radius: 8px;
+    letter-spacing: 1.3px;
+}
+.button-join{
+    background-color: black;
+    font-family: "Orbitron";
+    font-size: 15px;
+    font-weight: 430;
+    color: #ffffff;
+    padding: 1.4px 4px ;
+    border-radius: 8px;
+    letter-spacing: 1.3px;
+}
+.contact-heading{
+    color: grey;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 500;
+}
+.icons{
+    margin-top: 12px;
+    display: flex;
+    gap: 13px;
+}
+.icons img{
+    height: 26px;
+}
