@@ -1,4 +1,4 @@
-# Project 2:
+# Project 1:
 [Live link](http://127.0.0.1:5500/index.html)
 
 ## Name:Vaishnavi Jaju
@@ -16,3 +16,5 @@
 ***
 
 ![badge](https://img.shields.io/badge/LearnCodeOnline-INeuron)
+
+![image](1.png)
